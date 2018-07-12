@@ -1,0 +1,169 @@
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body{
+    background-color:#f2f2f2; overflow:hidden;
+}
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #443f3f;margin: 1em 0;padding: 0;}
+.icon{
+    background-image:url(../images/search.png); 
+    background-position: 10px 8px;
+    background-repeat: no-repeat; 
+    background-size : 30px 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: grey;
+}
+#mySidebar
+{
+    z-index:3;width:115px; background-color: #333331;
+}
+.side-divc{
+    width:100px; margin-left:-13px;
+}
+.l-button
+{   
+    padding: 5px 50px;  
+    background-color:lightgrey;
+}
+.l-button:hover
+{   
+    background-color:darkgrey;
+}
+.date
+{
+    padding:2px; color:grey; margin-left:-8px; background-color:#e5e5e5; position: relative;
+}
+.side-div
+{
+    margin-left:73px; border-bottom: 1px solid #e5e5e5;
+}
+.con-line
+{
+    background-color: #e5e5e5;width: 2px;position: absolute;margin-left: 73px;
+}
+.small-circle
+{
+    width:23px;     background-color: #403c3c;
+    height: 23px;
+    box-shadow: 0px 0px 0 2px darkgrey; margin-left:-8px; font-size:13px;
+}
+.circle-icon2
+{
+	width:30px; height:30px; background-color:#33aae4;position: relative;
+}
+.circle-image
+{
+	width: 45px;
+    height: 45px;
+    position: relative;
+    background-image: url(../images/test.png);
+	background-size: cover;
+    box-shadow: 0px 0px 0px 3px #333331;
+}
+.circle-icon
+{
+	width: 45px;
+    height: 45px;
+    position: relative;
+    background-color:#585856;
+    box-shadow: 0px 0px 0px 3px #333331;
+}
+.c-icon{
+	color: #7e7e7c;
+    text-align: -webkit-center;
+    margin: 14px;
+    box-shadow: 7px 5px 7px 1px #414144;
+}
+.c-icon1{
+	color: white;
+    margin: 7px 8px;
+}
+.c-iconb{
+	color: white;
+    text-align: -webkit-center;
+    margin: 14px;
+	background-color:#3cb8ee;
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color: #f2f2f2!important;
+}
+/* Customize the label (the container) */
+.container {
+  display: block;
+  display:inline;
+  position: relative;
+  padding-left: 22px;
+  margin-right: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #3cb8ee;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background:white;
+}
+.tag
+{
+	color:#cacaca;
+	border: 1px solid lightgrey;
+	border-radius:2px;
+	margin-left:10px;
+	padding:3px;
+	font-size:10px;
+}
+.lpar
+{
+	color:#c1baba;
+}
+.ul
+{
+	color: #33aae4;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 13px;
+}
